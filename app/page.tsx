@@ -60,7 +60,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
           <h1 className="text-5xl font-bold mb-4">Stav.Today</h1>
-          <p className="text-xl max-w-2xl">Velkommen til Stav ungdoms skole sin helt egene hjemmeside!</p>
+          <p className="text-xl max-w-2xl">Velkommen til Stav ungdomsskole sin helt egene hjemmeside!</p>
         </div>
       </div>
 
@@ -161,7 +161,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
-                    <li>Hårkutt - Kr30</li>
+                    <li>Hårklipp - Kr30</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -174,10 +174,16 @@ export default function Home() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <p>Vi jobber med booking systemet</p>
-                  <Button className="w-full">
-                    Kommer snart!
-                  </Button>
+                  <p></p>
+                  <a
+  href="https://outlook.office365.com/book/Stavtoday1@lillestrom.onmicrosoft.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full"
+>
+  <Button className="w-full">Gå til booking</Button>
+</a>
+
                 </CardContent>
               </Card>
             </div>
@@ -223,10 +229,16 @@ export default function Home() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <p>Vi jobber med booking systemet</p>
-                  <Button className="w-full">
-                    Kommer snart!
-                  </Button>
+                  <p></p>
+                  <a
+  href="https://outlook.office365.com/book/Stavtoday1@lillestrom.onmicrosoft.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full"
+>
+  <Button className="w-full">Gå til booking</Button>
+</a>
+
                 </CardContent>
               </Card>
             </div>
